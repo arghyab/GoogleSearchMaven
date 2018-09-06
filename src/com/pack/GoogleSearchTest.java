@@ -11,6 +11,7 @@ public class GoogleSearchTest {
 		driver.navigate().to("http://google.com");
 		String appTitle = driver.getTitle();
 		System.out.println("Application title is :: "+appTitle);
+		//Test changes
 		driver.quit();
 	}
 
